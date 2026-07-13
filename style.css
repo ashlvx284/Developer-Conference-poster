@@ -1,0 +1,379 @@
+
+nav{
+    background-color:white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    width: 100%;
+    height: 98px;
+}
+ 
+.nav-menu ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    list-style: none;
+
+    
+}
+
+.nav-menu a{
+    text-decoration: none;
+    color: #727070;
+
+    
+}
+
+.poster-logo img{
+    width: 128px;
+    height: 44px; 
+    padding-left: 45px;  
+}
+
+.button1 button{
+    border:none;
+    border-radius: 10px;
+    background-color: rgb(50, 122, 216);
+    color: aliceblue;
+    width: 188px;
+    height: 48px;
+    margin-right: 80px;
+}
+
+.hero{
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 786px;
+    margin-top:   0px;
+    background-image:linear-gradient(rgba(49, 50, 53, 0.13)),
+    linear-gradient(rgba(13, 23, 32, 0.377)),
+    url(./assets/banner.jpg) ;
+}
+
+.hero-head{
+    text-align: center;
+    margin: 0 auto;
+    font-size: 40px;
+    font-weight: 700;
+    width: 959px;
+    height: 95px;
+    padding-top:6px;
+    margin-top: 0px;
+    color:white;
+    
+}
+
+.hero-p {
+    text-align: center;
+    margin-top: 150px;
+    width: 829px;
+    height: 128px;
+    padding-right:301px;
+    padding-left: 360px;
+    font-size: 26px;
+    font-weight: 400;
+    margin: 0 auto;
+    padding-top: 60px;
+    color:white;
+}
+.button2 button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    margin-bottom: 60px;
+    margin-top: 360px;
+    border:none ;
+    border-radius: 14px;
+    width: 282px;
+    height: 74px;
+    color: aliceblue;
+    background-color: blue;
+    
+
+}
+
+
+.speaker-head{
+    width: 512px;
+    height: 65px; 
+    margin: 0 auto;
+    margin-top: 50px;
+    font-size: 40px;
+    font-weight: 700;
+
+}
+.speaker-container{
+    width: 1500px;
+    height: 1088px;
+    margin: 0 auto;
+    margin-top: 50px;
+
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap:32px;
+    
+
+}
+
+.speaker-card{
+    background: #e9e4e4;
+    border: 1px solid #f5e9e9;
+    border-radius: 17px;
+}
+
+.speaker-card img{
+    width: 100%;
+    height:300px;
+    object-fit: cover;
+    display: block;
+
+}
+
+.dept{
+    display: block;
+    margin: 20px 20px 8px;
+    font-size: 12px;
+    font-weight: 700;
+    color: rgb(127, 86, 240);
+    text-transform:  uppercase;
+    letter-spacing:  1px;
+
+}
+
+.speaker-card h3{
+    margin: 0 20px;
+    font-size: 30px;
+    font-weight: 700;
+    color:rgb(48, 47, 47);
+}
+
+.speaker-card p{
+    margin: 10px 20px 25px;
+    font-size: 16px;
+    color: rgb(124, 123, 123);
+    line-height: 1.5;
+}
+
+
+.pricing{
+    width: 100%;
+    padding: 100px 0;
+}
+
+.price-head {
+    width: 520px;
+    margin: 0 auto;
+    text-align: center;
+
+}
+
+.price-head h2{
+    font-size: 40px;
+    font-weight: 700;
+    color: #111827;
+    margin-bottom: 15px;
+}
+
+.price-head p{
+    font-size: 18px;
+    color: #6B7280;
+    line-height:  28px;
+}
+
+.price-card{
+    width: 1400px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    padding-left: 50px;
+    margin-top: 80px;
+}
+
+.standard-card{
+    width: 380px;
+    border: 1px solid #acb0b4;
+    border-radius: 12px;
+    background: white;
+    padding: 35px;
+
+}
+
+.standard-card span{
+    color:#2563EB;
+    font-size: 18x;
+    font-weight: 700;
+}
+
+.standard-card h3{
+    font-size: 56px;
+    font-weight: 700;
+    color: #111827;
+    margin-top: 20px;
+    margin-bottom: 10px;
+
+}
+
+.standard-card p{
+    color:#6B7280;
+    font-size: 16px;
+    margin-bottom: 25px;
+}
+
+.standard-card hr{
+    border: none;
+    border-top: 1px solid #E5E7EB;
+    margin-bottom: 25px;
+}
+
+
+.standard-card ul{
+    padding-left: 20px;
+}
+
+.standard-card li{margin-bottom: 18px;
+color: #374151;
+line-height: 24px;}
+
+
+.S-button{
+    width: 100%;
+    height: 50px;
+    margin-top: 30px;
+    border: 1px solid #2563EB;
+    background: white;
+    color:#2563EB;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.pro-card{
+    width: 380px;
+    background: #06173d;
+    border-radius: 12px;
+    padding :35px;
+
+}
+
+
+.pro-card span{
+    color: #3B82F6;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.pro-card h3{
+    font-size: 56px;
+    font-weight: 700;
+    color: rgb(122, 128, 131);
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.pro-card p{
+    color:#b27dc7;
+    font-size: 16px;
+    margin-bottom: 25px;
+}
+
+.pro-card hr{
+    border: none;
+    border-top: 1px solid #b7c0ce;
+    margin-bottom: 25px;
+}
+
+.pro-card ul{
+    padding-left: 20px;
+
+}
+
+.pro-card li{
+    color: #9b9797;
+    margin-bottom: 18px;
+    line-height: 24px;
+}
+
+.pro-card li::marker{
+    color:#3B82F6;
+}
+
+.P-button{
+    width: 100%;
+    height: 50px;
+    margin-top: 30px;
+    background: #2563EB;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+
+.team-card{
+    width: 380px;
+    border: 1px solid #acb0b4;
+    border-radius: 12px;
+    background: white;
+    padding: 35px;
+
+}
+
+
+.team-card span{
+    color:#2563EB;
+    font-size: 18x;
+    font-weight: 700;
+}
+
+.team-card h3{
+    font-size: 56px;
+    font-weight: 700;
+    color: #111827;
+    margin-top: 20px;
+    margin-bottom: 10px;
+
+}
+
+.team-card p{
+    color:#6B7280;
+    font-size: 16px;
+    margin-bottom: 25px;
+}
+
+.team-card hr{
+    border: none;
+    border-top: 1px solid #E5E7EB;
+    margin-bottom: 25px;
+}
+
+
+.team-card ul{
+    padding-left: 20px;
+}
+
+.team-card li{margin-bottom: 18px;
+color: #374151;
+line-height: 24px;}
+
+
+.T-button{
+    width: 100%;
+    height: 50px;
+    margin-top: 30px;
+    border: 1px solid #2563EB;
+    background: white;
+    color:#2563EB;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+}
